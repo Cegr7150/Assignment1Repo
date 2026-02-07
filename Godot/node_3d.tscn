@@ -1,0 +1,83 @@
+[gd_scene format=3 uid="uid://chsim8ujao7n6"]
+
+[ext_resource type="PackedScene" uid="uid://cht55u47klr3u" path="res://Models/FBX format/floor.fbx" id="1_6iypd"]
+[ext_resource type="PackedScene" uid="uid://dvjqqatc4l8di" path="res://Models/FBX format/display-bread.fbx" id="2_tereu"]
+[ext_resource type="PackedScene" uid="uid://boqxy0tx5as8c" path="res://Models/FBX format/display-fruit.fbx" id="3_cdqbm"]
+[ext_resource type="PackedScene" uid="uid://dud1qjspa7yjc" path="res://Models/FBX format/cash-register.fbx" id="4_imku0"]
+[ext_resource type="PackedScene" uid="uid://pkn5rau4pqdi" path="res://Models/FBX format/bottle-return.fbx" id="5_wlxy5"]
+[ext_resource type="PackedScene" uid="uid://b6st21w4qlvxc" path="res://Models/FBX format/freezer.fbx" id="6_3v7ru"]
+[ext_resource type="PackedScene" uid="uid://cweli72ovldju" path="res://Models/FBX format/freezers-standing.fbx" id="7_tcnuu"]
+[ext_resource type="PackedScene" uid="uid://bf2slirmwqxy4" path="res://Models/FBX format/shopping-cart.fbx" id="8_tuemg"]
+[ext_resource type="PackedScene" uid="uid://d251nu7dhfs2q" path="res://Models/FBX format/shelf-boxes.fbx" id="9_i0g27"]
+[ext_resource type="PackedScene" uid="uid://cmwafos0kj0cx" path="res://Models/FBX format/character-employee.fbx" id="10_ealrb"]
+
+[node name="Node3D" type="Node3D" unique_id=1042075435]
+
+[node name="floor" parent="." unique_id=353710903 instance=ExtResource("1_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.50288, 0, -7.4933033)
+
+[node name="floor2" parent="." unique_id=217050571 instance=ExtResource("1_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5050774, 0, -6.5087156)
+
+[node name="floor3" parent="." unique_id=1619089601 instance=ExtResource("1_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5193505, 0, -7.4970474)
+
+[node name="floor4" parent="." unique_id=1418781341 instance=ExtResource("1_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5121555, 0, -6.515629)
+
+[node name="floor5" parent="." unique_id=1797900822 instance=ExtResource("1_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.52899, 0, -8.497646)
+
+[node name="floor6" parent="." unique_id=1434642432 instance=ExtResource("1_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5164833, 1.1920929e-07, -8.496454)
+
+[node name="floor7" parent="." unique_id=680119399 instance=ExtResource("1_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.500406, 0, -5.5530977)
+
+[node name="floor8" parent="." unique_id=242104258 instance=ExtResource("1_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5228186, 0, -5.5369444)
+
+[node name="floor9" parent="." unique_id=214525122 instance=ExtResource("1_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.521207, 0, -5.5220237)
+
+[node name="floor10" parent="." unique_id=767936120 instance=ExtResource("1_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5339637, 0.018213391, -6.5272384)
+
+[node name="floor11" parent="." unique_id=1504366681 instance=ExtResource("1_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5355954, 0.0013469458, -7.5131354)
+
+[node name="floor12" parent="." unique_id=830678745 instance=ExtResource("1_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.5389614, -1.1920929e-07, -8.492553)
+
+[node name="display-bread" parent="." unique_id=253522410 instance=ExtResource("2_tereu")]
+transform = Transform3D(-0.028602071, 0, -0.9995909, 0, 1, 0, 0.9995909, 0, -0.028602071, -5.497729, 0.066101074, -8.437517)
+
+[node name="display-fruit" parent="." unique_id=1495852101 instance=ExtResource("3_cdqbm")]
+transform = Transform3D(0.99981314, 0.012471724, 0.014772441, -0.012543114, 0.99991006, 0.004750509, -0.014711874, -0.0049348893, 0.9998796, -6.4724193, 0, -6.948626)
+
+[node name="cash-register" parent="." unique_id=314593670 instance=ExtResource("4_imku0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.687648, 0, -5.8918014)
+
+[node name="bottle-return" parent="." unique_id=281413934 instance=ExtResource("5_wlxy5")]
+transform = Transform3D(-0.9977339, 0, 0.06728393, 0, 1, 0, -0.06728393, 0, -0.9977339, -7.714849, 0, -5.4681687)
+
+[node name="freezer" parent="." unique_id=2099328888 instance=ExtResource("6_3v7ru")]
+transform = Transform3D(0.00911052, 0, -0.9999585, 0, 1, 0, 0.9999585, 0, 0.00911052, -6.729265, 0, -8.0343485)
+
+[node name="freezer2" parent="freezer" unique_id=1241453768 instance=ExtResource("6_3v7ru")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0019283295, 0, 0.57802296)
+
+[node name="freezers-standing" parent="." unique_id=1411900265 instance=ExtResource("7_tcnuu")]
+transform = Transform3D(-0.018988103, 0, -0.9998197, 0, 1, 0, 0.9998197, 0, -0.018988103, -5.5969443, 0, -7.1267557)
+
+[node name="shopping-cart" parent="." unique_id=1603426582 instance=ExtResource("8_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.2752047, 0, -5.890463)
+
+[node name="shelf-boxes" parent="." unique_id=616672720 instance=ExtResource("9_i0g27")]
+transform = Transform3D(0.019180031, 0, -0.99981606, 0, 1, 0, 0.99981606, 0, 0.019180031, -7.6344986, 0, -6.80815)
+
+[node name="character-employee" parent="." unique_id=1588565492 instance=ExtResource("10_ealrb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.518545, 0, -6.0906167)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=463337577]
+transform = Transform3D(0.0014385391, 0.99989206, -0.014626695, -2.6839556e-10, 0.014626712, 0.999893, 0.999999, -0.0014383849, 2.1042242e-05, -6.4434724, 2.9679432, -7.0293818)
