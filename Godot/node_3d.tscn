@@ -10,6 +10,8 @@
 [ext_resource type="PackedScene" uid="uid://bf2slirmwqxy4" path="res://Models/FBX format/shopping-cart.fbx" id="8_tuemg"]
 [ext_resource type="PackedScene" uid="uid://d251nu7dhfs2q" path="res://Models/FBX format/shelf-boxes.fbx" id="9_i0g27"]
 [ext_resource type="PackedScene" uid="uid://cmwafos0kj0cx" path="res://Models/FBX format/character-employee.fbx" id="10_ealrb"]
+[ext_resource type="Script" uid="uid://dahhh4qapn1ff" path="res://caller.gd" id="11_cdqbm"]
+[ext_resource type="Script" uid="uid://dnwuk2udmikaj" path="res://receiver.gd" id="12_imku0"]
 
 [node name="Node3D" type="Node3D" unique_id=1042075435]
 
@@ -81,3 +83,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.518545, 0, -6.0906167)
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=463337577]
 transform = Transform3D(0.0014385391, 0.99989206, -0.014626695, -2.6839556e-10, 0.014626712, 0.999893, 0.999999, -0.0014383849, 2.1042242e-05, -6.4434724, 2.9679432, -7.0293818)
+
+[node name="Caller" type="Node3D" parent="." unique_id=926763721 node_paths=PackedStringArray("Receiver")]
+script = ExtResource("11_cdqbm")
+Receiver = NodePath("../Receiver")
+
+[node name="Receiver" type="Node3D" parent="." unique_id=2146700887]
+transform = Transform3D(1, 0, -7.995027e-11, 0, 1, -1.8189894e-12, 3.6465053e-11, 0, 1, 4.7683716e-07, 0, 0)
+script = ExtResource("12_imku0")
