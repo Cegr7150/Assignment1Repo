@@ -893,3 +893,648 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.27-22.45.11:294][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
 [2026.02.27-22.45.11:302][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
 [2026.02.27-22.45.13:456][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2026.02.27-22.45.24:862][  0]LogSlate: Using FreeType 2.10.0
+[2026.02.27-22.45.24:894][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2026.02.27-22.45.24:913][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2026.02.27-22.45.24:913][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2026.02.27-22.45.24:913][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2026.02.27-22.45.24:913][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2026.02.27-22.45.24:945][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2026.02.27-22.45.24:953][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.02.27-22.45.24:998][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Intermediate/CachedAssetRegistry_*.bin.
+[2026.02.27-22.45.25:386][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.02.27-22.45.25:386][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.02.27-22.45.25:422][  0]LogDeviceProfileManager: Active device profile: [000001E3FAB5D480][000001E3F0D55000 66] WindowsEditor
+[2026.02.27-22.45.25:422][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.02.27-22.45.25:446][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.27-22.45.25:471][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2026.02.27-22.45.25:471][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.02.27-22.45.25:471][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.02.27-22.45.25:637][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.26100.0, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists")
+[2026.02.27-22.45.25:641][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Assignment1Project.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Intermediate/TurnkeyReport_1.log" -log="C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Intermediate/TurnkeyLog_1.log" -project="C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Assignment1Project.uproject"  -Device=Win64@CARLOS-LAPTOP'
+[2026.02.27-22.45.25:641][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Assignment1Project.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Intermediate/TurnkeyReport_1.log" -log="C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Intermediate/TurnkeyLog_1.log" -project="C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Assignment1Project.uproject"  -Device=Win64@CARLOS-LAPTOP" -nocompile -nocompileuat ]
+[2026.02.27-22.45.25:783][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.27-22.45.25:791][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2026.02.27-22.45.25:791][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.27-22.45.25:792][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.27-22.45.25:800][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2026.02.27-22.45.25:800][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.27-22.45.25:801][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.27-22.45.25:874][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+[2026.02.27-22.45.25:875][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+[2026.02.27-22.45.25:877][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+[2026.02.27-22.45.25:878][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.27-22.45.25:896][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.27-22.45.25:907][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.27-22.45.25:975][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+[2026.02.27-22.45.25:976][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+[2026.02.27-22.45.25:978][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2026.02.27-22.45.25:978][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.27-22.45.26:029][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2026.02.27-22.45.26:029][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.27-22.45.26:048][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2026.02.27-22.45.26:048][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.27-22.45.26:065][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2026.02.27-22.45.26:065][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.27-22.45.26:491][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.02.27-22.45.26:492][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.02.27-22.45.26:492][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.02.27-22.45.26:492][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.02.27-22.45.26:492][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2026.02.27-22.45.27:087][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2026.02.27-22.45.29:473][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2026.02.27-22.45.29:685][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.02.27-22.45.29:685][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.02.27-22.45.29:686][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+[2026.02.27-22.45.29:686][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+[2026.02.27-22.45.29:695][  0]LogLiveCoding: Display: Starting LiveCoding
+[2026.02.27-22.45.29:695][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2026.02.27-22.45.29:699][  0]LogLiveCoding: Display: First instance in process group "UE_Assignment1Project_0x24ee260e", spawning console
+[2026.02.27-22.45.29:723][  0]LogLiveCoding: Display: Waiting for server
+[2026.02.27-22.45.29:759][  0]LogSlate: Border
+[2026.02.27-22.45.29:759][  0]LogSlate: BreadcrumbButton
+[2026.02.27-22.45.29:759][  0]LogSlate: Brushes.Title
+[2026.02.27-22.45.29:759][  0]LogSlate: ColorPicker.ColorThemes
+[2026.02.27-22.45.29:759][  0]LogSlate: Default
+[2026.02.27-22.45.29:759][  0]LogSlate: Icons.Save
+[2026.02.27-22.45.29:759][  0]LogSlate: Icons.Toolbar.Settings
+[2026.02.27-22.45.29:759][  0]LogSlate: ListView
+[2026.02.27-22.45.29:759][  0]LogSlate: SoftwareCursor_CardinalCross
+[2026.02.27-22.45.29:759][  0]LogSlate: SoftwareCursor_Grab
+[2026.02.27-22.45.29:759][  0]LogSlate: TableView.DarkRow
+[2026.02.27-22.45.29:759][  0]LogSlate: TableView.Row
+[2026.02.27-22.45.29:759][  0]LogSlate: TreeView
+[2026.02.27-22.45.30:142][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.02.27-22.45.30:149][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 6.756 ms
+[2026.02.27-22.45.30:233][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2026.02.27-22.45.30:233][  0]LogInit: XR: MultiViewport is Disabled
+[2026.02.27-22.45.30:233][  0]LogInit: XR: Mobile Multiview is Disabled
+[2026.02.27-22.45.30:248][  0]LogTurnkeySupport: Turnkey Device: Win64@Carlos-Laptop: (Name=Carlos-Laptop, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.26200.0, Flags="Device_InstallSoftwareValid")
+[2026.02.27-22.45.30:304][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2026.02.27-22.45.30:996][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2026.02.27-22.45.30:996][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2026.02.27-22.45.30:998][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:50356'.
+[2026.02.27-22.45.31:005][  0]LogUdpMessaging: Display: Added local interface '10.18.223.54' to multicast group '230.0.0.1:6666'
+[2026.02.27-22.45.31:009][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2026.02.27-22.45.31:016][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2026.02.27-22.45.31:574][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: EE55B309975147C2800000000000F700 | Instance: 8AE09F10497C0C050B84E3BA6BD777B7 (CARLOS-LAPTOP-35764).
+[2026.02.27-22.45.32:163][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.02.27-22.45.32:163][  0]LogNNERuntimeORT: Selecting NPU adapter: Intel(R) Iris(R) Xe Graphics
+[2026.02.27-22.45.32:304][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.02.27-22.45.32:304][  0]LogNNERuntimeORT:   DirectML:  yes
+[2026.02.27-22.45.32:304][  0]LogNNERuntimeORT:   RHI D3D12: no
+[2026.02.27-22.45.32:304][  0]LogNNERuntimeORT:   D3D12:     yes
+[2026.02.27-22.45.32:304][  0]LogNNERuntimeORT:   NPU:       yes
+[2026.02.27-22.45.32:304][  0]LogNNERuntimeORT: Interface availability:
+[2026.02.27-22.45.32:304][  0]LogNNERuntimeORT:   GPU: yes
+[2026.02.27-22.45.32:304][  0]LogNNERuntimeORT:   RDG: no
+[2026.02.27-22.45.32:304][  0]LogNNERuntimeORT:   NPU: yes
+[2026.02.27-22.45.32:428][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2026.02.27-22.45.32:453][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.02.27-22.45.32:453][  0]LogNNERuntimeORT: Selecting NPU adapter: Intel(R) Iris(R) Xe Graphics
+[2026.02.27-22.45.32:849][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.02.27-22.45.32:850][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.02.27-22.45.32:878][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.02.27-22.45.33:191][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.02.27-22.45.33:191][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.02.27-22.45.33:213][  0]LogTimingProfiler: Initialize
+[2026.02.27-22.45.33:216][  0]LogTimingProfiler: OnSessionChanged
+[2026.02.27-22.45.33:216][  0]LoadingProfiler: Initialize
+[2026.02.27-22.45.33:216][  0]LoadingProfiler: OnSessionChanged
+[2026.02.27-22.45.33:217][  0]LogNetworkingProfiler: Initialize
+[2026.02.27-22.45.33:219][  0]LogNetworkingProfiler: OnSessionChanged
+[2026.02.27-22.45.33:219][  0]LogMemoryProfiler: Initialize
+[2026.02.27-22.45.33:219][  0]LogMemoryProfiler: OnSessionChanged
+[2026.02.27-22.45.34:201][  0]SourceControl: Revision control is disabled
+[2026.02.27-22.45.34:206][  0]SourceControl: Revision control is disabled
+[2026.02.27-22.45.34:223][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2026.02.27-22.45.34:223][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2026.02.27-22.45.34:223][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2026.02.27-22.45.34:223][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2026.02.27-22.45.34:728][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.02.27-22.45.34:754][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.02.27-22.45.34:759][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.02.27-22.45.34:760][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.02.27-22.45.34:901][  0]LogCollectionManager: Loaded 0 collections in 0.003175 seconds
+[2026.02.27-22.45.34:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Saved/Collections/' took 0.00s
+[2026.02.27-22.45.34:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Developers/kecs1/Collections/' took 0.00s
+[2026.02.27-22.45.34:910][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Collections/' took 0.00s
+[2026.02.27-22.45.35:126][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2026.02.27-22.45.35:126][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2026.02.27-22.45.35:126][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2026.02.27-22.45.35:126][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2026.02.27-22.45.35:164][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2026.02.27-22.45.35:164][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2026.02.27-22.45.35:164][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2026.02.27-22.45.35:164][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2026.02.27-22.45.35:190][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-41373641 booting at 2026-02-27T22:45:35.190Z using C
+[2026.02.27-22.45.35:190][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.7309.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=Assignment1Project, ProductVersion=++UE5+Release-5.6-CL-44394996, IsServer=false, Flags=DisableOverlay]
+[2026.02.27-22.45.35:193][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2026.02.27-22.45.35:195][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2026.02.27-22.45.35:211][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2026.02.27-22.45.35:215][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2026.02.27-22.45.35:215][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2026.02.27-22.45.35:216][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000638
+[2026.02.27-22.45.35:309][  0]LogUObjectArray: 42347 objects as part of root set at end of initial load.
+[2026.02.27-22.45.35:309][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.02.27-22.45.35:561][  0]LogEngine: Initializing Engine...
+[2026.02.27-22.45.35:885][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2026.02.27-22.45.35:886][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2026.02.27-22.45.36:800][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2026.02.27-22.45.36:987][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2026.02.27-22.45.37:233][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.02.27-22.45.37:301][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.02.27-22.45.37:301][  0]LogInit: Texture streaming: Enabled
+[2026.02.27-22.45.37:316][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.6.1-44394996+++UE5+Release-5.6 )
+[2026.02.27-22.45.37:330][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2026.02.27-22.45.37:343][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2026.02.27-22.45.37:344][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2026.02.27-22.45.37:345][  0]LogAudio: Display: Audio Device Manager Initialized
+[2026.02.27-22.45.37:345][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2026.02.27-22.45.37:346][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.27-22.45.37:346][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.27-22.45.37:346][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.27-22.45.37:346][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.27-22.45.37:346][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.27-22.45.37:346][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.27-22.45.37:346][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.27-22.45.37:346][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.27-22.45.37:346][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.27-22.45.37:346][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.27-22.45.37:346][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.27-22.45.37:363][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.27-22.45.38:052][  0]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.27-22.45.38:053][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.27-22.45.38:055][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.27-22.45.38:056][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.27-22.45.38:059][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.02.27-22.45.38:059][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.27-22.45.38:061][  0]LogInit: FAudioDevice initialized with ID 1.
+[2026.02.27-22.45.38:061][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.27-22.45.38:061][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2026.02.27-22.45.38:061][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2026.02.27-22.45.38:061][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2026.02.27-22.45.38:076][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.02.27-22.45.38:083][  0]LogInit: Undo buffer set to 256 MB
+[2026.02.27-22.45.38:083][  0]LogInit: Transaction tracking system initialized
+[2026.02.27-22.45.38:117][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.27-22.45.38:259][  0]LocalizationService: Localization service is disabled
+[2026.02.27-22.45.38:420][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1920"
+[2026.02.27-22.45.38:420][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="1080"
+[2026.02.27-22.45.39:656][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Content/' took 0.02s
+[2026.02.27-22.45.39:676][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2026.02.27-22.45.39:988][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2026.02.27-22.45.39:990][  0]LogPython: Using Python 3.11.8
+[2026.02.27-22.45.40:120][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.02.27-22.45.40:966][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2026.02.27-22.45.41:069][  0]LogEditorDataStorage: Initializing
+[2026.02.27-22.45.41:081][  0]LogEditorDataStorage: Initialized
+[2026.02.27-22.45.41:092][  0]LogCore: Display: GameplayInsights module auto-connecting to local trace server...
+[2026.02.27-22.45.41:177][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.02.27-22.45.41:183][  0]SourceControl: Revision control is disabled
+[2026.02.27-22.45.41:183][  0]LogUnrealEdMisc: Loading editor; pre map load, took 54.602
+[2026.02.27-22.45.41:192][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2026.02.27-22.45.41:196][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.02.27-22.45.41:198][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.27-22.45.41:223][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.27-22.45.41:232][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.02.27-22.45.41:343][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2026.02.27-22.45.41:343][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2026.02.27-22.45.41:348][  0]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.02.27-22.45.41:348][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.27-22.45.41:348][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Temp/Untitled_1.Untitled_1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.27-22.45.41:398][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/IT/MHSUN7EJKDAAL8CVT31B9U which is not in a mounted directory. Call will be ignored.
+[2026.02.27-22.45.41:493][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/kecs1/Documents/Assignment1Repo/Unreal/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/IT/MHSUN7EJKDAAL8CVT31B9U which is not in a mounted directory. Call will be ignored.
+[2026.02.27-22.45.41:593][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2026.02.27-22.45.41:676][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.02.27-22.45.41:686][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.02.27-22.45.41:691][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.02.27-22.45.41:695][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2026.02.27-22.45.41:695][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2026.02.27-22.45.41:695][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.02.27-22.45.41:700][  0]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2026.02.27-22.45.41:823][  0]LogWorldPartition: Display: WorldPartition initialize took 475.105 ms
+[2026.02.27-22.45.42:053][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.02.27-22.45.42:076][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2026.02.27-22.45.42:076][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.02.27-22.45.42:081][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.336ms to complete.
+[2026.02.27-22.45.42:108][  0]LogUnrealEdMisc: Total Editor Startup Time, took 55.527
+[2026.02.27-22.45.42:116][  0]LogAssetRegistry: Display: Asset registry cache written as 66.8 MiB to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Intermediate/CachedAssetRegistry_*.bin
+[2026.02.27-22.45.42:356][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2026.02.27-22.45.42:733][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.27-22.45.43:037][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.27-22.45.43:337][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.27-22.45.43:639][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.27-22.45.44:136][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.27-22.45.44:154][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2026.02.27-22.45.44:156][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.27-22.45.44:177][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2026.02.27-22.45.44:178][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.27-22.45.44:191][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2026.02.27-22.45.44:192][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.27-22.45.44:201][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2026.02.27-22.45.44:202][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.27-22.45.44:212][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2026.02.27-22.45.44:213][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.27-22.45.44:229][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2026.02.27-22.45.44:230][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.27-22.45.44:257][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2026.02.27-22.45.44:259][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.27-22.45.44:269][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2026.02.27-22.45.44:270][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.27-22.45.44:278][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2026.02.27-22.45.44:278][  0]LogPakFile: Initializing PakPlatformFile
+[2026.02.27-22.45.44:290][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2026.02.27-22.45.45:720][  0]LogSlate: Took 0.010983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.02.27-22.45.45:737][  0]LogSlate: Took 0.009037 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2026.02.27-22.45.45:747][  0]LogSlate: Took 0.008926 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2026.02.27-22.45.46:161][  0]LogStall: Startup...
+[2026.02.27-22.45.46:165][  0]LogStall: Startup complete.
+[2026.02.27-22.45.46:189][  0]LogLoad: (Engine Initialization) Total time: 59.61 seconds
+[2026.02.27-22.45.46:628][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.02.27-22.45.46:628][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2026.02.27-22.45.46:715][  0]LogSlate: Took 0.006526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2026.02.27-22.45.46:887][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.27-22.45.46:908][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.02.27-22.45.47:259][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2026.02.27-22.45.47:260][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 353.262 ms
+[2026.02.27-22.45.48:385][  1]LogAssetRegistry: AssetRegistryGather time 16.4456s: AssetDataDiscovery 0.2614s, AssetDataGather 16.1216s, StoreResults 0.0626s. Wall time 23.4420s.
+	NumCachedDirectories 0. NumUncachedDirectories 1544. NumCachedFiles 0. NumUncachedFiles 7637.
+	BackgroundTickInterruptions 0.
+[2026.02.27-22.45.48:425][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2026.02.27-22.45.48:438][  1]LogStreaming: Display: FlushAsyncLoading(404): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.27-22.45.48:443][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2026.02.27-22.45.48:446][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2026.02.27-22.45.48:731][  1]LogSourceControl: Uncontrolled asset discovery finished in 0.285209 seconds (Found 7613 uncontrolled assets)
+[2026.02.27-22.45.49:494][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 13.803102
+[2026.02.27-22.45.49:496][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2026.02.27-22.45.49:500][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14.278288
+[2026.02.27-22.45.50:852][  7]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2026.02.27-22.45.51:599][  9]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 15.968056
+[2026.02.27-22.45.51:601][  9]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -287380011
+[2026.02.27-22.45.51:602][  9]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15.968056, Update Interval: 339.061249
+[2026.02.27-22.45.59:982][ 35]LogMeshUtilities: Finished distance field build in 11.2s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 48% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.01:194][ 38]LogMeshUtilities: Finished distance field build in 12.4s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 43% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.01:422][ 39]LogMeshUtilities: Finished distance field build in 12.7s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 50% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.01:759][ 40]LogMeshUtilities: Finished distance field build in 13.0s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 57% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.06:056][ 53]LogMeshUtilities: Finished distance field build in 17.3s - 126x126x126 sparse distance field, 2.6Mb total, 0.1Mb always loaded, 75% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.11:653][ 70]LogMeshUtilities: Finished distance field build in 9.6s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 44% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.11:838][ 70]LogMeshUtilities: Finished distance field build in 9.8s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 45% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.12:618][ 73]LogMeshUtilities: Finished distance field build in 10.6s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.15:020][ 83]LogMeshUtilities: Finished distance field build in 13.0s - 126x126x126 sparse distance field, 3.1Mb total, 0.1Mb always loaded, 94% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.16:821][ 88]LogMeshUtilities: Finished distance field build in 3.3s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 48% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.25:533][192]LogMeshUtilities: Finished distance field build in 8.3s - 126x126x126 sparse distance field, 1.4Mb total, 0.1Mb always loaded, 39% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.25:645][192]LogSlate: Took 0.021355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.02.27-22.46.28:024][201]LogMeshUtilities: Finished distance field build in 10.8s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 42% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.28:100][201]LogMeshUtilities: Finished distance field build in 10.9s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.28:576][202]LogMeshUtilities: Finished distance field build in 11.4s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.32:289][213]LogMeshUtilities: Finished distance field build in 15.1s - 126x126x126 sparse distance field, 3.3Mb total, 0.1Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.35:473][220]LogMeshUtilities: Finished distance field build in 5.7s - 126x126x126 sparse distance field, 1.4Mb total, 0.1Mb always loaded, 38% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.38:896][230]LogMeshUtilities: Finished distance field build in 9.1s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.41:608][237]LogMeshUtilities: Finished distance field build in 11.8s - 126x126x126 sparse distance field, 3.3Mb total, 0.1Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.44:209][246]LogMeshUtilities: Finished distance field build in 4.7s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.45:828][251]LogMeshUtilities: Finished distance field build in 6.3s - 126x126x126 sparse distance field, 2.6Mb total, 0.1Mb always loaded, 75% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.56:557][283]LogMeshUtilities: Finished distance field build in 10.3s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.57:731][287]LogMeshUtilities: Finished distance field build in 11.5s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 42% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.57:914][287]LogMeshUtilities: Finished distance field build in 11.7s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.46.58:931][290]LogMeshUtilities: Finished distance field build in 12.7s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.47.00:151][294]LogMeshUtilities: Finished distance field build in 13.9s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 62% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.47.04:444][308]LogMeshUtilities: Finished distance field build in 5.9s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.47.08:426][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.02.27-22.47.08:431][318]Cmd: MAP LOAD FILE="../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Assignment_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2026.02.27-22.47.08:478][318]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2026.02.27-22.47.08:480][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.27-22.47.08:480][318]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2026.02.27-22.47.09:048][318]LogMeshUtilities: Finished distance field build in 7.3s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.47.09:897][318]LogMeshUtilities: Finished distance field build in 8.1s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 51% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.47.10:420][318]LogMeshUtilities: Finished distance field build in 8.7s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 64% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2026.02.27-22.47.10:422][318]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.27-22.47.10:451][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.02.27-22.47.10:453][318]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.27-22.47.10:544][318]LogMaterial: Warning: [AssetLog] C:\Users\kecs1\Documents\Assignment1Repo\Unreal\Content\Models\FBX_format\colormap1.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2026.02.27-22.47.10:577][318]LogAudio: Display: Audio Device (ID: 1) registered with world 'Assignment_Level'.
+[2026.02.27-22.47.10:577][318]LogChaosDD: Creating Chaos Debug Draw Scene for world Assignment_Level
+[2026.02.27-22.47.10:714][318]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.02.27-22.47.10:739][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.02.27-22.47.10:746][318]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.02.27-22.47.10:747][318]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.092ms to complete.
+[2026.02.27-22.47.10:749][318]LogSlate: Window 'Open Level' being destroyed
+[2026.02.27-22.47.11:269][322]LogDerivedDataCache: C:/Users/kecs1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.27-22.48.15:054][480]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.02.27-22.48.17:292][484]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.02.27-22.48.42:260][658]LogSlate: Took 0.011208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.02.27-22.48.47:871][670]LogStreaming: Display: FlushAsyncLoading(475): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.27-22.48.47:941][670]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPersonBP.upack)
+[2026.02.27-22.48.47:967][670]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2026.02.27-22.48.47:974][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Lvl_ThirdPerson.umap" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/Lvl_ThirdPerson.umap"
+[2026.02.27-22.48.47:980][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/MI_ThirdPersonColWay.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/MI_ThirdPersonColWay.uasset"
+[2026.02.27-22.48.47:987][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+[2026.02.27-22.48.47:997][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset"
+[2026.02.27-22.48.48:004][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.uasset"
+[2026.02.27-22.48.48:016][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/EU/X5MT1GOX9C5UUGZAKRVC3R.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/EU/X5MT1GOX9C5UUGZAKRVC3R.uasset"
+[2026.02.27-22.48.48:023][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/MV/2U2IE6JXO1320Q32RJQKSE.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/MV/2U2IE6JXO1320Q32RJQKSE.uasset"
+[2026.02.27-22.48.48:030][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/AM/9YGDW7FMEY1CZD31VUYO11.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/AM/9YGDW7FMEY1CZD31VUYO11.uasset"
+[2026.02.27-22.48.48:037][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/K3/79QZQ7KG2RXNWMD6RSPKUM.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/K3/79QZQ7KG2RXNWMD6RSPKUM.uasset"
+[2026.02.27-22.48.48:044][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/25/3IO0LF8AOO4YLSEAEN2JO1.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/25/3IO0LF8AOO4YLSEAEN2JO1.uasset"
+[2026.02.27-22.48.48:051][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/KL/UYSRPQ5SOYIFVLEQINPH31.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/KL/UYSRPQ5SOYIFVLEQINPH31.uasset"
+[2026.02.27-22.48.48:058][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/TV/DYUIEBPX2N8UFXT326WX2O.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/TV/DYUIEBPX2N8UFXT326WX2O.uasset"
+[2026.02.27-22.48.48:064][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/X5/JDOWWCJ7DZVSHT4Y29GQ4D.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/X5/JDOWWCJ7DZVSHT4Y29GQ4D.uasset"
+[2026.02.27-22.48.48:071][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/W9/ZAAGYIUQZ2W6WEO3HPXAX7.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/W9/ZAAGYIUQZ2W6WEO3HPXAX7.uasset"
+[2026.02.27-22.48.48:078][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/AX/QEPSHOMS1K2ANUR3LXWOJM.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/AX/QEPSHOMS1K2ANUR3LXWOJM.uasset"
+[2026.02.27-22.48.48:087][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/9M/BJR5SDQDQW7QDFFPNUUMNX.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/9M/BJR5SDQDQW7QDFFPNUUMNX.uasset"
+[2026.02.27-22.48.48:093][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/V0/9XTUAMN5S6UUCFB5K0ZGZM.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/V0/9XTUAMN5S6UUCFB5K0ZGZM.uasset"
+[2026.02.27-22.48.48:104][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/JD/OCW0UZT4ANZZD9YHEAOMAP.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/JD/OCW0UZT4ANZZD9YHEAOMAP.uasset"
+[2026.02.27-22.48.48:112][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/XU/RW3P9HUUCOCG5TL3TPG6XF.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/XU/RW3P9HUUCOCG5TL3TPG6XF.uasset"
+[2026.02.27-22.48.48:120][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/8N/4L4W0MLV9WFUGRTMUBLBOP.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/8N/4L4W0MLV9WFUGRTMUBLBOP.uasset"
+[2026.02.27-22.48.48:127][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/GV/W5DNM2FP1ON7VGU0C2BGMV.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/GV/W5DNM2FP1ON7VGU0C2BGMV.uasset"
+[2026.02.27-22.48.48:133][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/O7/IHUOIGG1MW1YZY097JJ8O7.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/O7/IHUOIGG1MW1YZY097JJ8O7.uasset"
+[2026.02.27-22.48.48:140][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/13/EPTYZCFZWXT7Z7XYKZ88XK.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/13/EPTYZCFZWXT7Z7XYKZ88XK.uasset"
+[2026.02.27-22.48.48:147][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/IP/MGVQPE8M923OBBJLZBI1PC.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/IP/MGVQPE8M923OBBJLZBI1PC.uasset"
+[2026.02.27-22.48.48:154][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/KG/ETKAO35ANVW90XFH3J8GJ2.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/KG/ETKAO35ANVW90XFH3J8GJ2.uasset"
+[2026.02.27-22.48.48:160][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/50/395Y4QE4IIEWI3KSE3SB6L.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/50/395Y4QE4IIEWI3KSE3SB6L.uasset"
+[2026.02.27-22.48.48:169][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/8U/VKFLMM0CV8ZCC0P3TQGTTM.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/8U/VKFLMM0CV8ZCC0P3TQGTTM.uasset"
+[2026.02.27-22.48.48:177][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/3J/Q8CQM512VVS7UZZW0KQRSV.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/3J/Q8CQM512VVS7UZZW0KQRSV.uasset"
+[2026.02.27-22.48.48:183][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/BN/LKN4IB4C3UPW62GHBEKTIW.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/BN/LKN4IB4C3UPW62GHBEKTIW.uasset"
+[2026.02.27-22.48.48:195][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/K5/NQBPXM7AM8N39CBW4ZT57P.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/K5/NQBPXM7AM8N39CBW4ZT57P.uasset"
+[2026.02.27-22.48.48:203][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/MG/EDRUPW3EOYDDSI6HNSIVT1.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/MG/EDRUPW3EOYDDSI6HNSIVT1.uasset"
+[2026.02.27-22.48.48:210][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/RI/R8L7GQXCHQGMMKBPTBJTNA.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/RI/R8L7GQXCHQGMMKBPTBJTNA.uasset"
+[2026.02.27-22.48.48:216][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/M3/6T1XG4EDG4ZEE1U9HMYL4C.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/M3/6T1XG4EDG4ZEE1U9HMYL4C.uasset"
+[2026.02.27-22.48.48:224][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/6V/AV0JKCFBVPU58UEBGB0GC0.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/6V/AV0JKCFBVPU58UEBGB0GC0.uasset"
+[2026.02.27-22.48.48:232][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/AY/KLCRMXKI9WR2P0GDY96C36.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/AY/KLCRMXKI9WR2P0GDY96C36.uasset"
+[2026.02.27-22.48.48:238][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/EE/HZ5WNBFZRJYQPUA6X8TVVT.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/EE/HZ5WNBFZRJYQPUA6X8TVVT.uasset"
+[2026.02.27-22.48.48:247][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/27/6ZCCZ1F7ZO6DM3C8OLVGTF.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/27/6ZCCZ1F7ZO6DM3C8OLVGTF.uasset"
+[2026.02.27-22.48.48:257][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/HY/Q7CPP7VHOXBAMAJI90W626.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/HY/Q7CPP7VHOXBAMAJI90W626.uasset"
+[2026.02.27-22.48.48:265][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/CQ/I205QOSSXONYWBP69RVMVA.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/CQ/I205QOSSXONYWBP69RVMVA.uasset"
+[2026.02.27-22.48.48:275][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/5G/29Z6AXUGZPZ0CXHLK2DICG.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/5G/29Z6AXUGZPZ0CXHLK2DICG.uasset"
+[2026.02.27-22.48.48:285][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/96/RFQP83S9K0LC7IW8CXS6C0.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/96/RFQP83S9K0LC7IW8CXS6C0.uasset"
+[2026.02.27-22.48.48:292][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/SS/QXUZ4IXFNKHCYFWERA1HQA.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/SS/QXUZ4IXFNKHCYFWERA1HQA.uasset"
+[2026.02.27-22.48.48:300][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Lvl_ThirdPerson/0/TQ/1UP2MCOIYXC0GTW985R4K0.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalObjects__/ThirdPerson/Lvl_ThirdPerson/0/TQ/1UP2MCOIYXC0GTW985R4K0.uasset"
+[2026.02.27-22.48.48:311][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/LX/1K6D4FIEJMOF50LSVJKFMP.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/LX/1K6D4FIEJMOF50LSVJKFMP.uasset"
+[2026.02.27-22.48.48:318][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/UM/1F7R5WQFM2D9KH7A94JFBU.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/UM/1F7R5WQFM2D9KH7A94JFBU.uasset"
+[2026.02.27-22.48.48:324][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/JR/W7S9610Y7RWELGF93FZYAE.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/JR/W7S9610Y7RWELGF93FZYAE.uasset"
+[2026.02.27-22.48.48:332][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/C5/3LNK9WKCBL4YVMWIBXQZ1I.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/C5/3LNK9WKCBL4YVMWIBXQZ1I.uasset"
+[2026.02.27-22.48.48:339][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/EE/OCR348BHEJWLHO72TR249H.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/EE/OCR348BHEJWLHO72TR249H.uasset"
+[2026.02.27-22.48.48:350][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/E2/L159AMTR83MORHTF2GEOKE.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/E2/L159AMTR83MORHTF2GEOKE.uasset"
+[2026.02.27-22.48.48:361][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/3C/KAT90QYQLFOHNMOF9BEDZK.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/3C/KAT90QYQLFOHNMOF9BEDZK.uasset"
+[2026.02.27-22.48.48:367][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/L5/790AP8RYBMX9YBLGTW6WE6.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/L5/790AP8RYBMX9YBLGTW6WE6.uasset"
+[2026.02.27-22.48.48:375][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/8I/HFL05AWIVBP8M8UXTV4H5K.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/8I/HFL05AWIVBP8M8UXTV4H5K.uasset"
+[2026.02.27-22.48.48:383][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/9R/UKIMD8EYGPZFS8OC6GX24A.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/9R/UKIMD8EYGPZFS8OC6GX24A.uasset"
+[2026.02.27-22.48.48:389][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/XM/SN8KJL01L24VVIYC52MNFR.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/XM/SN8KJL01L24VVIYC52MNFR.uasset"
+[2026.02.27-22.48.48:396][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/0N/NTRPN55OWWUSD03K29ZOSH.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/0N/NTRPN55OWWUSD03K29ZOSH.uasset"
+[2026.02.27-22.48.48:402][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/D3/XWEMBL7KZTNQP83W1KTMXE.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/D3/XWEMBL7KZTNQP83W1KTMXE.uasset"
+[2026.02.27-22.48.48:409][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/HN/XXZLD30WH49IXWEHJXSVAR.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/HN/XXZLD30WH49IXWEHJXSVAR.uasset"
+[2026.02.27-22.48.48:415][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/0N/1OONKTGJMLVBN21M6JE59I.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/0N/1OONKTGJMLVBN21M6JE59I.uasset"
+[2026.02.27-22.48.48:423][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/G9/77SUGCMHUBU5E7FP1DLCVD.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/G9/77SUGCMHUBU5E7FP1DLCVD.uasset"
+[2026.02.27-22.48.48:432][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/WI/FHUVUALB8C8XRJ0PY9XXTI.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/WI/FHUVUALB8C8XRJ0PY9XXTI.uasset"
+[2026.02.27-22.48.48:440][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/UK/OT5UOZ3WBJ9P30TU3DBDEK.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/UK/OT5UOZ3WBJ9P30TU3DBDEK.uasset"
+[2026.02.27-22.48.48:447][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/7A/C0UVMH95QVQO1KMTVK7MSB.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/7A/C0UVMH95QVQO1KMTVK7MSB.uasset"
+[2026.02.27-22.48.48:457][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/XH/SKCKQTQDTE8ZNW6C0FCBRO.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/XH/SKCKQTQDTE8ZNW6C0FCBRO.uasset"
+[2026.02.27-22.48.48:463][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/YB/C5UDZYKFL5M0YW62JXMPIZ.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/YB/C5UDZYKFL5M0YW62JXMPIZ.uasset"
+[2026.02.27-22.48.48:471][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/P1/LRQT09TOYHOXK9DY22EIKE.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/P1/LRQT09TOYHOXK9DY22EIKE.uasset"
+[2026.02.27-22.48.48:480][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/RX/297QBXCKTP06G7NIHIULK4.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/RX/297QBXCKTP06G7NIHIULK4.uasset"
+[2026.02.27-22.48.48:487][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/VS/XX060WNO6GEZU5BZQCLZPP.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/VS/XX060WNO6GEZU5BZQCLZPP.uasset"
+[2026.02.27-22.48.48:493][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/2F/XTDQUHCYJJV6JCH4OJSVLG.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/2F/XTDQUHCYJJV6JCH4OJSVLG.uasset"
+[2026.02.27-22.48.48:500][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/4G/TYFCMQ9MC435YW6FZBF5FS.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/4G/TYFCMQ9MC435YW6FZBF5FS.uasset"
+[2026.02.27-22.48.48:507][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/0L/IL99N1JAI1J4A2DFQBQL53.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/0L/IL99N1JAI1J4A2DFQBQL53.uasset"
+[2026.02.27-22.48.48:513][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/HX/PES0ONLF01PSQTJCC5USD2.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/HX/PES0ONLF01PSQTJCC5USD2.uasset"
+[2026.02.27-22.48.48:521][670]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Lvl_ThirdPerson/5/TX/O6OLZU4WSCI3YRJS922SWL.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalObjects__/ThirdPerson/Lvl_ThirdPerson/5/TX/O6OLZU4WSCI3YRJS922SWL.uasset"
+[2026.02.27-22.48.48:661][670]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.27-22.48.48:775][670]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/MI_ThirdPersonColWay] ([1] browsable assets)...
+[2026.02.27-22.48.48:776][670]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.02.27-22.48.48:877][670]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/ThirdPerson/MI_ThirdPersonColWay.MI_ThirdPersonColWay]
+[2026.02.27-22.48.48:877][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/MI_ThirdPersonColWay]
+[2026.02.27-22.48.48:878][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/MI_ThirdPersonColWay" FILE="../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/MI_ThirdPersonColWay.uasset" SILENT=true
+[2026.02.27-22.48.48:896][670]LogSavePackage: Moving output files for package: /Game/ThirdPerson/MI_ThirdPersonColWay
+[2026.02.27-22.48.48:897][670]LogSavePackage: Moving '../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Saved/MI_ThirdPersonColWayFDEE493F4F4E4B288200899A492B8D9E.tmp' to '../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/MI_ThirdPersonColWay.uasset'
+[2026.02.27-22.48.48:952][670]LogFileHelpers: InternalPromptForCheckoutAndSave took 291.120 ms
+[2026.02.27-22.48.49:911][670]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.27-22.48.49:911][670]LogContentValidation: Enabled validators:
+[2026.02.27-22.48.49:912][670]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.27-22.48.49:912][670]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.27-22.48.49:912][670]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.27-22.48.49:912][670]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.27-22.48.49:912][670]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.27-22.48.49:912][670]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.27-22.48.49:913][670]AssetCheck: /Game/ThirdPerson/MI_ThirdPersonColWay Validating asset
+[2026.02.27-22.48.50:040][670]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.27-22.49.05:931][711]LogSlate: Window 'Content Browser' being destroyed
+[2026.02.27-22.49.06:033][711]LogSlate: Window 'Content Browser' being destroyed
+[2026.02.27-22.49.08:105][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/MI_DefaultColorway.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/LevelPrototyping/Materials/MI_DefaultColorway.uasset
+[2026.02.27-22.49.08:109][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/LevelPrototyping/Content/Materials/M_FlatCol.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/LevelPrototyping/Materials/M_FlatCol.uasset
+[2026.02.27-22.49.08:141][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Meshes/SKM_Quinn_Simple.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Meshes/SKM_Quinn_Simple.uasset
+[2026.02.27-22.49.08:141][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Meshes/SK_Mannequin.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset
+[2026.02.27-22.49.08:157][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Rigs/CR_Mannequin_FootIK.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Rigs/CR_Mannequin_FootIK.uasset
+[2026.02.27-22.49.08:160][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Rigs/PA_Mannequin.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Rigs/PA_Mannequin.uasset
+[2026.02.27-22.49.08:161][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Materials/M_Mannequin.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Materials/M_Mannequin.uasset
+[2026.02.27-22.49.08:176][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/ABP_Unarmed.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/ABP_Unarmed.uasset
+[2026.02.27-22.49.08:177][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/BS_Idle_Walk_Run.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/BS_Idle_Walk_Run.uasset
+[2026.02.27-22.49.08:177][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/MM_Idle.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/MM_Idle.uasset
+[2026.02.27-22.49.08:177][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_01_BN.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_BN.uasset
+[2026.02.27-22.49.08:177][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_01_D.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_D.uasset
+[2026.02.27-22.49.08:178][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Manny/T_Manny_01_MRA.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_MRA.uasset
+[2026.02.27-22.49.08:205][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Quinn/T_Quinn_01_D.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_D.uasset
+[2026.02.27-22.49.08:205][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Quinn/T_Quinn_01_MRA.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_MRA.uasset
+[2026.02.27-22.49.08:205][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Quinn/T_Quinn_01_N.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_N.uasset
+[2026.02.27-22.49.08:205][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Quinn/T_Quinn_02_D.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_D.uasset
+[2026.02.27-22.49.08:205][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Quinn/T_Quinn_02_MRA.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_MRA.uasset
+[2026.02.27-22.49.08:206][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Quinn/T_Quinn_02_N.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_N.uasset
+[2026.02.27-22.49.08:210][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Textures/Shared/T_UE_Logo_M.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Textures/Shared/T_UE_Logo_M.uasset
+[2026.02.27-22.49.08:211][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Materials/Quinn/MI_Quinn_01.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Materials/Quinn/MI_Quinn_01.uasset
+[2026.02.27-22.49.08:211][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Materials/Quinn/MI_Quinn_02.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Materials/Quinn/MI_Quinn_02.uasset
+[2026.02.27-22.49.08:270][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd.uasset
+[2026.02.27-22.49.08:270][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd_Left.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd_Left.uasset
+[2026.02.27-22.49.08:270][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd_Right.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd_Right.uasset
+[2026.02.27-22.49.08:270][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd.uasset
+[2026.02.27-22.49.08:271][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd_Left.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd_Left.uasset
+[2026.02.27-22.49.08:271][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd_Right.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd_Right.uasset
+[2026.02.27-22.49.08:271][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Left.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Left.uasset
+[2026.02.27-22.49.08:272][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Right.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Right.uasset
+[2026.02.27-22.49.08:274][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Jump/MM_Fall_Loop.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_Fall_Loop.uasset
+[2026.02.27-22.49.08:274][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Jump/MM_Jump.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_Jump.uasset
+[2026.02.27-22.49.08:275][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Jump/MM_Land.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_Land.uasset
+[2026.02.27-22.49.08:280][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd.uasset
+[2026.02.27-22.49.08:280][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd_Left.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd_Left.uasset
+[2026.02.27-22.49.08:280][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd_Right.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd_Right.uasset
+[2026.02.27-22.49.08:281][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd.uasset
+[2026.02.27-22.49.08:281][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd_Left.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd_Left.uasset
+[2026.02.27-22.49.08:281][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd_Right.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd_Right.uasset
+[2026.02.27-22.49.08:281][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Left.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Left.uasset
+[2026.02.27-22.49.08:282][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Characters/Content/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right.uasset
+[2026.02.27-22.49.08:302][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Input/Content/Actions/IA_Jump.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Input/Actions/IA_Jump.uasset
+[2026.02.27-22.49.08:302][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Input/Content/Actions/IA_Look.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Input/Actions/IA_Look.uasset
+[2026.02.27-22.49.08:302][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Input/Content/Actions/IA_MouseLook.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Input/Actions/IA_MouseLook.uasset
+[2026.02.27-22.49.08:302][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Input/Content/Actions/IA_Move.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Input/Actions/IA_Move.uasset
+[2026.02.27-22.49.08:302][717]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Input/Content/Touch/BPI_TouchInterface.uasset to ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Input/Touch/BPI_TouchInterface.uasset
+[2026.02.27-22.49.08:305][717]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPersonBP.upack)
+[2026.02.27-22.49.08:312][717]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2026.02.27-22.49.08:313][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Lvl_ThirdPerson.umap" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/Lvl_ThirdPerson.umap"
+[2026.02.27-22.49.08:313][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/MI_ThirdPersonColWay.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/MI_ThirdPersonColWay.uasset"
+[2026.02.27-22.49.08:314][717]LogPackFactory: Error: Unable to copy file "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset".
+[2026.02.27-22.49.08:315][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset"
+[2026.02.27-22.49.08:315][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.uasset"
+[2026.02.27-22.49.08:317][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Lvl_ThirdPerson/5/TX/O6OLZU4WSCI3YRJS922SWL.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalObjects__/ThirdPerson/Lvl_ThirdPerson/5/TX/O6OLZU4WSCI3YRJS922SWL.uasset"
+[2026.02.27-22.49.08:318][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/C5/3LNK9WKCBL4YVMWIBXQZ1I.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/C5/3LNK9WKCBL4YVMWIBXQZ1I.uasset"
+[2026.02.27-22.49.08:319][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/0N/NTRPN55OWWUSD03K29ZOSH.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/0N/NTRPN55OWWUSD03K29ZOSH.uasset"
+[2026.02.27-22.49.08:319][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/D3/XWEMBL7KZTNQP83W1KTMXE.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/D3/XWEMBL7KZTNQP83W1KTMXE.uasset"
+[2026.02.27-22.49.08:320][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/E2/L159AMTR83MORHTF2GEOKE.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/E2/L159AMTR83MORHTF2GEOKE.uasset"
+[2026.02.27-22.49.08:320][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/L5/790AP8RYBMX9YBLGTW6WE6.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/L5/790AP8RYBMX9YBLGTW6WE6.uasset"
+[2026.02.27-22.49.08:321][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/5G/29Z6AXUGZPZ0CXHLK2DICG.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/5G/29Z6AXUGZPZ0CXHLK2DICG.uasset"
+[2026.02.27-22.49.08:321][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/EE/OCR348BHEJWLHO72TR249H.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/EE/OCR348BHEJWLHO72TR249H.uasset"
+[2026.02.27-22.49.08:322][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/LX/1K6D4FIEJMOF50LSVJKFMP.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/LX/1K6D4FIEJMOF50LSVJKFMP.uasset"
+[2026.02.27-22.49.08:323][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/UM/1F7R5WQFM2D9KH7A94JFBU.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/UM/1F7R5WQFM2D9KH7A94JFBU.uasset"
+[2026.02.27-22.49.08:323][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Lvl_ThirdPerson/0/TQ/1UP2MCOIYXC0GTW985R4K0.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalObjects__/ThirdPerson/Lvl_ThirdPerson/0/TQ/1UP2MCOIYXC0GTW985R4K0.uasset"
+[2026.02.27-22.49.08:324][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/4G/TYFCMQ9MC435YW6FZBF5FS.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/4G/TYFCMQ9MC435YW6FZBF5FS.uasset"
+[2026.02.27-22.49.08:324][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/6V/AV0JKCFBVPU58UEBGB0GC0.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/6V/AV0JKCFBVPU58UEBGB0GC0.uasset"
+[2026.02.27-22.49.08:325][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/9R/UKIMD8EYGPZFS8OC6GX24A.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/9R/UKIMD8EYGPZFS8OC6GX24A.uasset"
+[2026.02.27-22.49.08:326][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/EU/X5MT1GOX9C5UUGZAKRVC3R.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/EU/X5MT1GOX9C5UUGZAKRVC3R.uasset"
+[2026.02.27-22.49.08:326][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/K3/79QZQ7KG2RXNWMD6RSPKUM.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/K3/79QZQ7KG2RXNWMD6RSPKUM.uasset"
+[2026.02.27-22.49.08:327][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/KL/UYSRPQ5SOYIFVLEQINPH31.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/KL/UYSRPQ5SOYIFVLEQINPH31.uasset"
+[2026.02.27-22.49.08:327][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/X5/JDOWWCJ7DZVSHT4Y29GQ4D.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/X5/JDOWWCJ7DZVSHT4Y29GQ4D.uasset"
+[2026.02.27-22.49.08:328][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/AM/9YGDW7FMEY1CZD31VUYO11.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/AM/9YGDW7FMEY1CZD31VUYO11.uasset"
+[2026.02.27-22.49.08:328][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/AX/QEPSHOMS1K2ANUR3LXWOJM.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/AX/QEPSHOMS1K2ANUR3LXWOJM.uasset"
+[2026.02.27-22.49.08:329][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/MV/2U2IE6JXO1320Q32RJQKSE.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/MV/2U2IE6JXO1320Q32RJQKSE.uasset"
+[2026.02.27-22.49.08:330][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/TV/DYUIEBPX2N8UFXT326WX2O.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/TV/DYUIEBPX2N8UFXT326WX2O.uasset"
+[2026.02.27-22.49.08:330][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/V0/9XTUAMN5S6UUCFB5K0ZGZM.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/V0/9XTUAMN5S6UUCFB5K0ZGZM.uasset"
+[2026.02.27-22.49.08:330][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/9M/BJR5SDQDQW7QDFFPNUUMNX.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/9M/BJR5SDQDQW7QDFFPNUUMNX.uasset"
+[2026.02.27-22.49.08:332][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/CQ/I205QOSSXONYWBP69RVMVA.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/CQ/I205QOSSXONYWBP69RVMVA.uasset"
+[2026.02.27-22.49.08:332][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/KG/ETKAO35ANVW90XFH3J8GJ2.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/KG/ETKAO35ANVW90XFH3J8GJ2.uasset"
+[2026.02.27-22.49.08:334][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/W9/ZAAGYIUQZ2W6WEO3HPXAX7.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/W9/ZAAGYIUQZ2W6WEO3HPXAX7.uasset"
+[2026.02.27-22.49.08:335][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/3C/KAT90QYQLFOHNMOF9BEDZK.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/3C/KAT90QYQLFOHNMOF9BEDZK.uasset"
+[2026.02.27-22.49.08:335][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/25/3IO0LF8AOO4YLSEAEN2JO1.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/25/3IO0LF8AOO4YLSEAEN2JO1.uasset"
+[2026.02.27-22.49.08:335][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/8I/HFL05AWIVBP8M8UXTV4H5K.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/8I/HFL05AWIVBP8M8UXTV4H5K.uasset"
+[2026.02.27-22.49.08:336][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/G9/77SUGCMHUBU5E7FP1DLCVD.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/G9/77SUGCMHUBU5E7FP1DLCVD.uasset"
+[2026.02.27-22.49.08:336][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/XM/SN8KJL01L24VVIYC52MNFR.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/XM/SN8KJL01L24VVIYC52MNFR.uasset"
+[2026.02.27-22.49.08:337][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/UK/OT5UOZ3WBJ9P30TU3DBDEK.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/UK/OT5UOZ3WBJ9P30TU3DBDEK.uasset"
+[2026.02.27-22.49.08:337][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/JD/OCW0UZT4ANZZD9YHEAOMAP.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/JD/OCW0UZT4ANZZD9YHEAOMAP.uasset"
+[2026.02.27-22.49.08:338][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/O7/IHUOIGG1MW1YZY097JJ8O7.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/O7/IHUOIGG1MW1YZY097JJ8O7.uasset"
+[2026.02.27-22.49.08:338][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/YB/C5UDZYKFL5M0YW62JXMPIZ.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/YB/C5UDZYKFL5M0YW62JXMPIZ.uasset"
+[2026.02.27-22.49.08:339][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/XU/RW3P9HUUCOCG5TL3TPG6XF.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/XU/RW3P9HUUCOCG5TL3TPG6XF.uasset"
+[2026.02.27-22.49.08:339][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/7A/C0UVMH95QVQO1KMTVK7MSB.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/7A/C0UVMH95QVQO1KMTVK7MSB.uasset"
+[2026.02.27-22.49.08:340][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/0N/1OONKTGJMLVBN21M6JE59I.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/0N/1OONKTGJMLVBN21M6JE59I.uasset"
+[2026.02.27-22.49.08:340][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/VS/XX060WNO6GEZU5BZQCLZPP.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/VS/XX060WNO6GEZU5BZQCLZPP.uasset"
+[2026.02.27-22.49.08:341][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/WI/FHUVUALB8C8XRJ0PY9XXTI.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/WI/FHUVUALB8C8XRJ0PY9XXTI.uasset"
+[2026.02.27-22.49.08:341][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/XH/SKCKQTQDTE8ZNW6C0FCBRO.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/XH/SKCKQTQDTE8ZNW6C0FCBRO.uasset"
+[2026.02.27-22.49.08:342][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/3J/Q8CQM512VVS7UZZW0KQRSV.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/3J/Q8CQM512VVS7UZZW0KQRSV.uasset"
+[2026.02.27-22.49.08:342][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/HN/XXZLD30WH49IXWEHJXSVAR.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/HN/XXZLD30WH49IXWEHJXSVAR.uasset"
+[2026.02.27-22.49.08:343][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/8N/4L4W0MLV9WFUGRTMUBLBOP.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/8N/4L4W0MLV9WFUGRTMUBLBOP.uasset"
+[2026.02.27-22.49.08:343][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/BN/LKN4IB4C3UPW62GHBEKTIW.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/BN/LKN4IB4C3UPW62GHBEKTIW.uasset"
+[2026.02.27-22.49.08:343][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/IP/MGVQPE8M923OBBJLZBI1PC.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/IP/MGVQPE8M923OBBJLZBI1PC.uasset"
+[2026.02.27-22.49.08:345][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/0L/IL99N1JAI1J4A2DFQBQL53.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/0L/IL99N1JAI1J4A2DFQBQL53.uasset"
+[2026.02.27-22.49.08:345][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/P1/LRQT09TOYHOXK9DY22EIKE.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/P1/LRQT09TOYHOXK9DY22EIKE.uasset"
+[2026.02.27-22.49.08:346][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/HX/PES0ONLF01PSQTJCC5USD2.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/HX/PES0ONLF01PSQTJCC5USD2.uasset"
+[2026.02.27-22.49.08:346][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/27/6ZCCZ1F7ZO6DM3C8OLVGTF.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/27/6ZCCZ1F7ZO6DM3C8OLVGTF.uasset"
+[2026.02.27-22.49.08:347][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/RX/297QBXCKTP06G7NIHIULK4.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/RX/297QBXCKTP06G7NIHIULK4.uasset"
+[2026.02.27-22.49.08:347][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/2F/XTDQUHCYJJV6JCH4OJSVLG.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/2F/XTDQUHCYJJV6JCH4OJSVLG.uasset"
+[2026.02.27-22.49.08:347][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/EE/HZ5WNBFZRJYQPUA6X8TVVT.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/EE/HZ5WNBFZRJYQPUA6X8TVVT.uasset"
+[2026.02.27-22.49.08:348][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/GV/W5DNM2FP1ON7VGU0C2BGMV.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/GV/W5DNM2FP1ON7VGU0C2BGMV.uasset"
+[2026.02.27-22.49.08:349][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/13/EPTYZCFZWXT7Z7XYKZ88XK.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/13/EPTYZCFZWXT7Z7XYKZ88XK.uasset"
+[2026.02.27-22.49.08:349][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/50/395Y4QE4IIEWI3KSE3SB6L.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/50/395Y4QE4IIEWI3KSE3SB6L.uasset"
+[2026.02.27-22.49.08:350][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/AY/KLCRMXKI9WR2P0GDY96C36.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/AY/KLCRMXKI9WR2P0GDY96C36.uasset"
+[2026.02.27-22.49.08:350][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/M3/6T1XG4EDG4ZEE1U9HMYL4C.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/M3/6T1XG4EDG4ZEE1U9HMYL4C.uasset"
+[2026.02.27-22.49.08:351][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/8U/VKFLMM0CV8ZCC0P3TQGTTM.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/8U/VKFLMM0CV8ZCC0P3TQGTTM.uasset"
+[2026.02.27-22.49.08:351][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/MG/EDRUPW3EOYDDSI6HNSIVT1.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/MG/EDRUPW3EOYDDSI6HNSIVT1.uasset"
+[2026.02.27-22.49.08:353][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/RI/R8L7GQXCHQGMMKBPTBJTNA.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/RI/R8L7GQXCHQGMMKBPTBJTNA.uasset"
+[2026.02.27-22.49.08:353][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/JR/W7S9610Y7RWELGF93FZYAE.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/JR/W7S9610Y7RWELGF93FZYAE.uasset"
+[2026.02.27-22.49.08:354][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/K5/NQBPXM7AM8N39CBW4ZT57P.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/K5/NQBPXM7AM8N39CBW4ZT57P.uasset"
+[2026.02.27-22.49.08:355][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/HY/Q7CPP7VHOXBAMAJI90W626.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/HY/Q7CPP7VHOXBAMAJI90W626.uasset"
+[2026.02.27-22.49.08:357][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/96/RFQP83S9K0LC7IW8CXS6C0.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/96/RFQP83S9K0LC7IW8CXS6C0.uasset"
+[2026.02.27-22.49.08:360][717]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/SS/QXUZ4IXFNKHCYFWERA1HQA.uasset" to "../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/SS/QXUZ4IXFNKHCYFWERA1HQA.uasset"
+[2026.02.27-22.49.08:438][717]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.27-22.49.08:564][717]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/MI_ThirdPersonColWay] ([1] browsable assets)...
+[2026.02.27-22.49.08:662][717]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/ThirdPerson/MI_ThirdPersonColWay.MI_ThirdPersonColWay]
+[2026.02.27-22.49.08:662][717]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/MI_ThirdPersonColWay]
+[2026.02.27-22.49.08:662][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/MI_ThirdPersonColWay" FILE="../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/MI_ThirdPersonColWay.uasset" SILENT=true
+[2026.02.27-22.49.08:677][717]LogSavePackage: Moving output files for package: /Game/ThirdPerson/MI_ThirdPersonColWay
+[2026.02.27-22.49.08:679][717]LogSavePackage: Moving '../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Saved/MI_ThirdPersonColWayC9C24B924FE67BCEA02CB38CBB2BF86F.tmp' to '../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/ThirdPerson/MI_ThirdPersonColWay.uasset'
+[2026.02.27-22.49.08:726][717]LogFileHelpers: InternalPromptForCheckoutAndSave took 287.209 ms (total: 578.330 ms)
+[2026.02.27-22.49.09:157][717]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.27-22.49.09:157][717]LogContentValidation: Enabled validators:
+[2026.02.27-22.49.09:157][717]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.27-22.49.09:157][717]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.27-22.49.09:157][717]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.27-22.49.09:157][717]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.27-22.49.09:157][717]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.27-22.49.09:157][717]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.27-22.49.09:157][717]AssetCheck: /Game/ThirdPerson/MI_ThirdPersonColWay Validating asset
+[2026.02.27-22.49.09:327][718]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.02.27-22.49.19:893][744]LogSlate: Window 'Content Browser' being destroyed
+[2026.02.27-22.49.19:999][744]LogSlate: Window 'Content Browser' being destroyed
+[2026.02.27-22.49.22:068][750]LogSlate: Window 'Add Content to the Project' being destroyed
+[2026.02.27-22.49.34:602][783]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2026.02.27-22.49.34:604][783]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2026.02.27-22.49.34:616][783]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/Assignment_Level.Assignment_Level:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2026.02.27-22.49.34:623][783]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/Assignment_Level.Assignment_Level:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2026.02.27-22.49.34:641][783]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.02.27-22.49.38:944][806]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.02.27-22.49.38:947][806]LogEditorActor: Deleted 0 Actors (0.086 secs)
+[2026.02.27-22.49.38:972][806]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2026.02.27-22.49.38:972][806]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2026.02.27-22.49.38:987][806]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/Assignment_Level.Assignment_Level:PersistentLevel.BP_ThirdPersonCharacter_C_1
+[2026.02.27-22.49.38:991][806]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/Assignment_Level.Assignment_Level:PersistentLevel.BP_ThirdPersonCharacter_C_1
+[2026.02.27-22.50.44:710][920]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.02.27-22.51.08:783][987]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2026.02.27-22.51.30:530][ 41]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 355.315216
+[2026.02.27-22.51.31:202][ 44]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.27-22.51.31:202][ 45]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 355.926056, Update Interval: 325.478088
+[2026.02.27-22.51.50:056][462]LogShaderCompilers: Display: ================================================
+[2026.02.27-22.51.50:056][462]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.02.27-22.51.50:056][462]LogShaderCompilers: Display: Total job queries 349, among them cache hits 26 (7.45%), DDC hits 253 (72.49%), Duplicates 64 (18.34%)
+[2026.02.27-22.51.50:056][462]LogShaderCompilers: Display: Tracking 259 distinct input hashes that result in 205 distinct outputs (79.15%)
+[2026.02.27-22.51.50:056][462]LogShaderCompilers: Display: RAM used: 1.29 MiB of 819.20 MiB budget. Usage: 0.16%
+[2026.02.27-22.51.50:056][462]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.02.27-22.51.50:056][462]LogShaderCompilers: Display: Shaders Compiled: 6
+[2026.02.27-22.51.50:056][462]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Average time worker was idle: 36.49 s
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Job execution time: average 1.17 s, max 1.27 s
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Job life time (pending + execution): average 1.23 s, max 1.34
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Shader code size: total 25.453 KiB, numShaders 6, average 4.242 KiB, min 2.73 KiB, max 5.156 KiB
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.43 s
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Average processing rate: 2.47 jobs/sec
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Total thread time: 4.895 s
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Total thread preprocess time: 8.429 s
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Percentage time preprocessing: 172.19%
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Effective parallelization: 2.01 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.251701
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.84 sec, max 0.84 sec, min 0.84 sec)
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.82 sec, max 0.95 sec, min 0.60 sec)
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.81 sec, max 0.82 sec, min 0.79 sec)
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 49.97% of total time (compiled    3 times, average 0.82 sec, max 0.95 sec, min 0.60 sec)
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 32.94% of total time (compiled    2 times, average 0.81 sec, max 0.82 sec, min 0.79 sec)
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display:                                                  FHitProxyVS - 17.09% of total time (compiled    1 times, average 0.84 sec, max 0.84 sec, min 0.84 sec)
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: === Material stats ===
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Materials Translated:    146
+[2026.02.27-22.51.50:057][462]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2026.02.27-22.51.50:058][462]LogShaderCompilers: Display: Material Translation Only: 0.06 s (38%)
+[2026.02.27-22.51.50:058][462]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.02.27-22.51.50:058][462]LogShaderCompilers: Display: Material Cache Hits: 9 (6%)
+[2026.02.27-22.51.50:058][462]LogShaderCompilers: Display: ================================================
+[2026.02.27-22.52.31:258][582]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.27-22.52.32:491][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assignment_Level" FILE="../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Assignment_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.02.27-22.52.32:544][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.02.27-22.52.32:571][582]LogSavePackage: Moving output files for package: /Game/Assignment_Level
+[2026.02.27-22.52.32:571][582]LogSavePackage: Moving '../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Saved/Assignment_LevelE426885B4E11EE6B4B4C828077A28C19.tmp' to '../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Content/Assignment_Level.umap'
+[2026.02.27-22.52.32:581][582]LogFileHelpers: Saving map 'Assignment_Level' took 0.090
+[2026.02.27-22.52.32:638][582]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.38 sec (total: 1.95 sec)
+[2026.02.27-22.52.32:727][582]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.27-22.52.32:727][582]LogContentValidation: Enabled validators:
+[2026.02.27-22.52.32:727][582]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.27-22.52.32:727][582]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.27-22.52.32:727][582]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.27-22.52.32:727][582]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.27-22.52.32:727][582]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.27-22.52.32:727][582]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.27-22.52.32:729][582]AssetCheck: /Game/Assignment_Level Validating asset
+[2026.02.27-22.52.32:798][582]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/kecs1/Documents/Assignment1Repo/Unreal/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.27-22.52.40:883][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
