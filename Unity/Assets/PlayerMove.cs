@@ -23,5 +23,8 @@ public class PlayerMove : MonoBehaviour
         if (controller.isGrounded && velocity.y < 0) velocity.y = -2f;
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+
+        
     }
+
 }
